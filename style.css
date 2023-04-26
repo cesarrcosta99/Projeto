@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 375px;
+    background-color: #F4F4F4;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+
+header {
+    height: 66px;
+    background: #1B83E2;
+    margin-bottom: 23px;
+
+}
+
+h1 {
+    font-size: 24px;
+    color: #F4F4F4;
+    /* display: inline-block; */
+    padding-top: 25px;
+    /* line-height: 66px;  */
+    text-align: center;
+    /* Uma maneira de centralizar verticalmente o conteúdo no header sem usar flex é definir a propriedade line-height igual à altura do elemento, e também definir a propriedade display como inline-block. */
+}
+
+.section-1 {
+    padding-left: 24px;
+}
+
+.section-2 {
+    padding-left: 24px;
+    border: 1px solid #1B83E2;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    padding-top: 12px;
+    padding-bottom: 17px;
+
+}
+
+select {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    height: 39px;
+    width: calc(100% - 24px);
+    padding-left: 16px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 24px;
+    width: calc(100% - 24px);
+    height: 39px;
+    padding-left: 16px;
+    outline: none;
+    font-size: 18px;
+}
+
+
+
+label {
+    font-size: 14px;
+    color: #777777;
+    padding-top: 21px;
+}
+
+button {
+    background-color: #1B83E2;
+    color: #F4F4F4;
+    border: none;
+    border-radius: 25px;
+    width: calc(100% - 24px);
+    height: 47px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+.seta {
+    width: 35px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto {
+    color: #777777;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.numero {
+    color: #1B83E2;
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+
+.real {
+    position: relative;
+    left: 3px;
+}
+
+.dolar {
+   position: relative;
+   right: 40px;
+}
